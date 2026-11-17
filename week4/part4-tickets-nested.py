@@ -1,5 +1,3 @@
-# Part 4: Guess and Check with nested loops
-# Ben = Alyssa - 2, Cindy = 2 * Alyssa, total = 10
 total = 10
 
 for alyssa in range(total + 1):

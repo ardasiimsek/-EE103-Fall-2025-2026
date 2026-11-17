@@ -1,4 +1,3 @@
-# Part 7: Binary conversion (integers)
 num = int(input("Enter an integer: "))
 
 if num == 0:
@@ -8,7 +7,7 @@ else:
     binary = ""
     while n > 0:
         remainder = n % 2
-        binary = str(remainder) + binary  # adding to the front reverses the order
+        binary = str(remainder) + binary
         n = n // 2
     if num < 0:
         binary = "-" + binary
