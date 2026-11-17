@@ -1,11 +1,8 @@
-# Recap 2: Midpoint Riemann sum for the integral of f(x) from 0 to 1
-
-
 def integrate(func, steps=1000):
     total_area = 0
     dx = 1 / steps
     for i in range(steps):
-        x_i = (i + 0.5) * dx        # midpoint of the i-th sub-interval
+        x_i = (i + 0.5) * dx
         total_area += func(x_i) * dx
     return total_area
 

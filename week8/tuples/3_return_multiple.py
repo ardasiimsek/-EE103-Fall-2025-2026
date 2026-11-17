@@ -1,9 +1,4 @@
-# Tuples: Returning more than one value
-
-
 def name_splitter(full_name):
-    """ Returns (first_name, surname). Everything before the last space
-    is the first name, so 'Ali Can Yilmaz' -> ('Ali Can', 'Yilmaz') """
     full_name = full_name.strip()
     space = full_name.rfind(' ')
     if space == -1:
@@ -22,7 +17,7 @@ def char_counts(s):
     for ch in s:
         if ch in "aeiou":
             vowels += 1
-        elif 'a' <= ch <= 'z':     # skip spaces, digits etc.
+        elif 'a' <= ch <= 'z':
             consonants += 1
     return (vowels, consonants)
 
@@ -31,5 +26,5 @@ first, last = name_splitter("Arda Simsek")
 print(f"First name: {first}, Surname: {last}")
 print(name_splitter("Ali Can Yilmaz"))
 
-print(char_counts("abcd"))            # (1, 3)
-print(char_counts("programming"))     # (3, 8)
+print(char_counts("abcd"))
+print(char_counts("programming"))

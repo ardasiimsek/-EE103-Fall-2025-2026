@@ -1,6 +1,3 @@
-# Lists: Return a tuple - Length and square
-
-
 def length_and_square(L):
     """ L is a list of numbers
     Return a tuple where the first value is the length of L and the second
@@ -12,5 +9,5 @@ def length_and_square(L):
     return (len(L), squares)
 
 
-print(length_and_square([1, 3, 5]))   # (3, [1, 9, 25])
-print(length_and_square([]))          # (0, [])
+print(length_and_square([1, 3, 5]))
+print(length_and_square([]))

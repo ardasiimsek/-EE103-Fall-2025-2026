@@ -1,4 +1,3 @@
-# Lists: Compute the sum of elements in a list
 total = 0
 dummy_range = range(10)
 
@@ -14,4 +13,4 @@ print(f"Equal: {dummy_list_1 == dummy_list_2}")
 
 for value in dummy_list_1:
     total += value
-print(f"Sum = {total}")   # 45
+print(f"Sum = {total}")
